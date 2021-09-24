@@ -40,3 +40,9 @@ footer {
 footer p {
     padding: 7px;
 }
+footer a::before {
+    color: wheat;
+}
+footer a::after {
+    color: thistle;
+}

@@ -1,42 +1,49 @@
 body {
     max-width: 1000px;
     margin: auto;
-    padding: 1rem;
 }
 header {
-    background-color: darkcyan;
+    background-color: rgb(32, 105, 105);
     box-shadow: 0px 0px 3px rgb(100, 97, 97);
-    border-radius: 10px;
+    margin-top: 1rem;
+    padding-top: 1.5rem;
 }
 h1 {
     padding: 1rem;
     color: wheat;
     text-align: center;
     text-shadow: 0px 0px 3px rgb(100, 97, 97);
-    font-size: 45px;
-    font-family: 'Grechen Fuemen', cursive;
+    font-size: 55px;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: .75rem;
 }
+    
 img {
-    float: right;
-    height: 200px;
-    margin: 1rem;
-    box-shadow: 3px 3px 5px gray;
-
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 5px black;
+    display: block;
 }
 main {
     margin-left: 50px;
     margin-right: 50px;
 }
+li a {
+    color: rgb(32, 105, 105);
+}
 h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 footer {
-    background-color: darkcyan;
+    background-color: rgb(32, 105, 105);
     color: wheat;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    border-radius: 10px;
 }
 footer p {
     padding: 7px;
+}
+footer a {
+    color: wheat;
 }

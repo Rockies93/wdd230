@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(221, 221, 221);
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+header, footer {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: whitesmoke;
+    padding: 1rem;
+    width: 100%;
+    margin-top: -10px;
+    margin-left: -10px;
+    font-size: 25px;
+}
+.section {
+    width: 95%;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    /*box-shadow: 0px 0px 10px black;*/
+    margin-top: 20px;
+}
+.section-heading {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-family: 'Poppins', sans-serifs;
+    border-radius: 10px 10px 0px 0px;
+    padding-bottom: 20px;
+    margin-top: -50px;
+}
+.section-heading h2 {
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 55px;
+    padding-top: 1rem;
+    padding-bottom: 0%;
+    letter-spacing: .33rem;
+    margin-bottom: 0%;
+}
+h3 {
+    margin: 0;
+    font-size: 35px;
+}
+a {
+    color: white;
+}
+img {
+    width: 100%;
+    margin: 0%;
+}
+p {
+    margin: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+}
+footer {
+    margin-top: 1rem;
+}

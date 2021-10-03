@@ -1,0 +1,14 @@
+@media (min-width: 37.5em) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .section {
+        margin-top: 15px;
+        padding-top: 0;
+    }
+    .section-heading {
+       margin-top: -50px;
+    }
+    
+}

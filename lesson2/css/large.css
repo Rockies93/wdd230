@@ -1,0 +1,16 @@
+@media (min-width: 60em) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .section {
+        height: 100%;
+        margin-top: 30px;
+    }
+    p {
+        font-size: 18px;
+    }
+    footer {
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,17 @@
+
+@media (min-width: 32.5em) {
+    nav ul{
+        display: flex;
+        flex-direction: row;
+    }
+    nav li {
+        text-align: center;
+    }
+    .palette-large {
+        display: block;
+        width: 100%;
+    }
+    .palette-small {
+        display: none;
+    }
+}

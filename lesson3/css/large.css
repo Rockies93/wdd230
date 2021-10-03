@@ -1,0 +1,11 @@
+@media (min-width: 60em) {
+    .purpose p, .purpose ul {
+        font-size: 1.5em;
+    }
+    .purpose h2 {
+        font-size: 2.5em;
+    }
+    footer p {
+        font-size: 1em;
+    }
+}

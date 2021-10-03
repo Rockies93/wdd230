@@ -1,0 +1,101 @@
+body {
+    background-color: #E3ECF2;
+    margin: 0;
+    padding: 0;
+}
+/*Style Header Banner*/
+.logo {
+    display: block;
+    margin: auto; 
+    height: 250px;
+}
+h1 {
+    font-family: 'IBM Plex Serif', serif;
+    text-align: center;
+    background-color: ;
+    font-size: 2.5rem;
+    color: #140D6F;
+    text-shadow: 1px 1px 1px #313638;
+
+}
+/*Style Navigation*/
+nav {
+    background-color: #313638;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+nav li {
+    color: #ffffff;
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+nav a {
+    text-decoration: none;
+}
+nav li:hover {
+    color: #F4E04D;
+}
+/*style main*/
+.purpose {
+    width: 85%;
+    background-color: #ffffff;
+    margin: auto;
+    padding: .5rem;
+    text-align: center;
+    box-shadow: 2px 2px 5px #313638;
+    color: #313638;
+    padding: 0;
+}
+ h3 {
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+    margin: 2rem;
+    color: #140D6F;
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px #313638;
+}
+.purpose h2 {
+    background-color: #313638;
+    color: #ffffff;
+    padding: 1rem;
+    font-family: 'IBM Plex Serif', serif;
+    letter-spacing: .15rem;
+    box-shadow: 1px 1px 3px #313638;
+    font-size: 1.5rem;
+}
+.purpose p, .purpose ul {
+    margin: 1rem;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    text-align: left;
+}
+.purpose h3 {
+    font-size: 1.15 rem;
+    text-shadow: none;
+}
+.palette-large {
+    display: none;
+}
+.palette-small {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+
+footer {
+    background-color: #313638;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 1rem;
+    font-size: 1.15rem;
+    margin-top: 1rem;
+}
+footer a {
+    color: #ffffff;
+}

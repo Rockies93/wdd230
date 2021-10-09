@@ -1,0 +1,23 @@
+@media (min-width: 32.5em) {
+    header {
+        display: flex;
+        align-items:center;
+	    justify-content:center;
+    }
+    .header-text {
+        margin: 0;
+        padding: 0;
+    }
+    .logo {
+        margin: 0;
+        padding: 1rem;
+    }
+    nav {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    footer {
+        font-size: 1rem;
+    }
+}

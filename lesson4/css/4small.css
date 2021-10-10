@@ -4,13 +4,21 @@ body {
     padding: 0;
 }
 header {
-    margin-top: 25px;
-    margin-bottom: 25px;
+    background-color: #ffffff;
+}
+header {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.header-text {
+    margin: 0;
+    padding: 0;
 }
 .logo {
-    float: left;
-    margin: auto; 
-    height: 115px;
+    margin: 0;
+    padding: 1rem;
+    height: 100px;
 }
 h1 {
     font-family: 'IBM Plex Serif', serif;
@@ -32,6 +40,7 @@ nav {
     background-color: #313638;
     padding: 1px;
     box-shadow: 1px 1px 5px #313638;
+    text-align: right;
 }
 nav ul {
     list-style: none;

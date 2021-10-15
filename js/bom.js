@@ -9,15 +9,11 @@ const list = document.querySelector('ul');
         
         const xButton = document.createElement('button');
         xButton.textContent = "X";
-        xButton.setAttribute ('class','delete')
 
         list.appendChild(listItem);
         listItem.appendChild(xButton);
 
-        //make delete button work 
-        const deleteButton = document.querySelector('.delete');
-
-        deleteButton.addEventListener('click',function () {
+        xButton.addEventListener('click',function () {
             list.removeChild(listItem);
         });
 

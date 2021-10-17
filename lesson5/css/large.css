@@ -1,0 +1,42 @@
+@media (min-width: 60em) {
+    body {
+        max-width: 1400px;
+        margin: auto;
+    }
+    .logo {
+        height: 250px;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    .moto {
+        font-size: 1.75rem;
+    }
+    .navigation {
+        display: flex;
+        flex: 1 1 auto;
+    }
+    .navigation li{
+        display: inline-block;
+        flex: 1 1 auto;
+    }
+    nav a {
+        padding: 0;
+        margin: 0;
+        font-size: 1.5rem;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    
+    h2 {
+        font-size: 2.5rem;
+    }
+    .box {
+        font-size: 1.5rem;
+        padding: 2rem;
+    }
+    footer {
+        font-size: 1.5rem;
+    }
+}

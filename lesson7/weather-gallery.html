@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Weather Gallery</title> 
+        <meta name="description" content="images of different types of weather">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;600&family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/small7.css">
+        <link rel="stylesheet" href="css/medium7.css">
+        <link rel="stylesheet" href="css/large7.css">
+        <link rel="shortcut icon" href="images/favicon.ico">
+    </head>
+    <body>
+        <div class="breakfast breakfast-gone">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion</div>
+        <header>
+            <img src="images/logo.png" alt="rain or shine logo" class="logo">
+            <div class="header-text">
+                <h1>Rain or Shine Weather</h1>
+                <div class="moto">Serving you, rain or shine</div>
+            </div>
+        </header>
+        <nav>
+            <ul class= "navigation">
+                <li><a href="#" class="hamburger">Menu</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="preston-5.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li  class="active"><a href="weather-gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="picture-gallery">
+                <picture>
+                    <img src="images/cloudyCity.jpg" alt="City covered in clouds">
+                    <figcaption>City covered in clouds</figcaption>
+                </picture>
+                <picture>
+                    <img src="images/CoupleAutumn .jpg" alt="Couple crossing the street during autumn">
+                    <figcaption>Couple crossing the street during autumn</figcaption>
+                </picture>
+                <picture>
+                    <img src="images/milkyWay.jpg" alt="The Milky Way Galaxy">
+                    <figcaption>The Milky Way Galaxy</figcaption>
+                </picture>
+                <picture>
+                    <img src="images/rainbow.jpg" alt="Rainbow over a field">
+                    <figcaption>Rainbow over a field</figcaption>
+                </picture>
+                <picture>
+                    <img src="images/RainyCity.jpg" alt="City street through a rainy window">
+                    <figcaption>City street through a rainy window</figcaption>
+                </picture>
+                <picture>
+                    <img src="images/snowflake.jpg" alt="Close up of a snowflake">
+                    <figcaption>Close up of a snowflake</figcaption>
+                </picture>
+                <picture>
+                    <img src="images/sunshineInClouds.jpg" alt="Sunbeams coming through the clouds">
+                    <figcaption>Sunbeams coming through the clouds</figcaption>
+                </picture>
+                <picture>
+                    <img src="images/sunshineSky.jpg" alt="Sunny sky over mountains">
+                    <figcaption>Sunny sky over mountains</figcaption>
+                </picture>
+                <picture>
+                    <img src="images/tornadoAndLightning.jpg" alt="Tornado surrounded by lightning">
+                    <figcaption>Tornado surrounded by lightning</figcaption>
+                </picture>
+            </div>
+            <div class="visit-counter">It has been <span id="last-visited"></span> days since you last visited</div>
+        </main>
+        <footer>  
+            <div class="contact-info">
+                <img src="images/phone.png" alt="phone icon">
+                <img src="images/mail.png" alt="email icon">
+            </div>
+            <div class="social-media">
+                <img src="images/facebook.png" alt="facebook icon">
+                <img src="images/instagram.png" alt="instagram icon">
+                <img src="images/twitter.png" alt="twitter icon">
+            </div>
+            <img src="images/map.jpg" alt="map of preston id" class="map">
+            <div>&copy;Rain or Shine Weather | Attributions | Raquel Eyler</div>
+            <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+            <div id="date"></div>
+        </footer>
+        <script src="js/responsive-menu.js"></script>
+        <script src="js/preston-banner.js"></script>
+       <!-- <script src="js/windchill.js"></script>-->
+        <script src="js/lazy-load.js"></script>
+        <script src="js/local-storage.js"></script>
+        <script></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+            WebFont.load({
+                google: {
+                    families: [
+                        'IBM Plex Serif', 'Roboto'
+                    ]
+                }
+            });
+        </script>
+    </body>
+</html>        

@@ -200,4 +200,18 @@ footer {
     width: 100%;
 }
 
+/*Image Gallery*/
+.picture-gallery {
+    width: 90%;
+    margin: auto;
+}
+picture {
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px #313638;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+picture img {
+    width: 100%;
+}
 

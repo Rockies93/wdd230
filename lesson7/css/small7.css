@@ -205,12 +205,12 @@ footer {
     margin: auto;
     padding-bottom: 1rem;
 }
-picture img{
+figure img{
     box-shadow: 1px 1px 3px #313638;
     margin-top: 1rem;
     width: 100%;
 }
-picture figcaption {
+figure figcaption {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: #313638;

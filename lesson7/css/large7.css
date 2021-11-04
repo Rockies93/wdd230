@@ -42,11 +42,9 @@
         font-size: 1.5rem;
     }
     .picture-gallery {
-        display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-column-gap: 1rem;
     }
-    picture img:hover {
+    figure img:hover {
         box-shadow: 3px 3px 7px #313638;
     }
 }

@@ -221,6 +221,52 @@ figure figcaption {
     color: #313638;
     margin: 1rem;
 }
+/*Storm Center*/
+label {
+    display: block;
+    margin: 2em;
+    font-family: 'Roboto', sans-serif;
+    color: #313638;
+    font-size: 1.5rem;
+}
+input, textarea {
+    display: block;
+    border-radius: 4px;
+    height: 50px;
+    margin: 0;
+    width: 95%;
+}
+input:required {
+    border: 2px solid red;
+}
+#rating-display {
+    display: inline;
+}
+
+form {
+    margin: 5%;
+}
+.sbs {
+    display: inline;
+    margin: 1em;
+    height: 25px;
+    width: 25px;
+}
+.sbs label {
+    display: inline;
+}
+.subbut {
+    background-color: #140D6F;
+    box-shadow: 3px 3px 5px #313638;
+    margin: 1em;
+    font-family: 'Roboto', sans-serif;
+    color: #F4E04D;
+    font-size: 1.5rem;
+    border: 2px solid #140D6F;
+}
+.subbut:hover{
+    box-shadow: 5px 5px 10px #313638;
+}
 
 
 

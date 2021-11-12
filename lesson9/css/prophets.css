@@ -1,0 +1,56 @@
+h1, h2 {
+    font-family: 'Yuji Syuku', serif;  
+    color: rgb(47, 79, 79);
+    text-align: center;
+}
+section {
+    width: 95%;
+    margin: auto;
+    background-color: rgb(47, 79, 79,.3);
+    box-shadow: 3px 3px 10px black;
+}
+h2 {
+    padding: 1rem;
+}
+img {
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+ul {
+    list-style: none;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+footer {
+    background-color: rgb(47, 79, 79,.3);
+    color: rgb(47, 79, 79);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1rem;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+}
+
+@media (min-width: 32.5em) {
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+        grid-auto-rows: 1fr;
+    }
+    section {
+        height: 100%;
+    }
+
+}
+
+@media (min-width: 60em) {
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+}

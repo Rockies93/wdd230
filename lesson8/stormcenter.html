@@ -28,6 +28,7 @@
                 <li><a href="#" class="hamburger">Menu</a></li>
                 <li><a href="#">Home</a></li>
                 <li><a href="preston-5.html">Preston</a></li>
+                
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
                 <li class="active"><a href="stormcenter.html">Storm Center</a></li>
@@ -37,13 +38,13 @@
         <main>
             <h1>Storm Center</h1>
             <form method="GET" action="/lesson8/thanks.html">
-                    <label for="name">Full Name: <input type="text" name="name" required minlength="5" pattern="[a-zA-Z]{5,}"></label>
-                    <label for="email">Email: <input type="email" name="email" placeholder="abc@gmail.com"></label>
-                    <label for="phone">Phone Number: <input type="tel" name="phone" required></label>
-                    <label for="zip">Zip Code: <input type="number" name="zip" required></label>
-                    <label for="date">Storm Date: <input type="date" name="date"></label>
-                    <label for="storm-type">Storm Type: <input list="storm-type" name="storm-type"></label>
-                        <datalist id="storm-type">
+                    <label for="name">Full Name: <input type="text" name="name" id="name" required minlength="5" pattern="[a-zA-Z]{5,}"></label>
+                    <label for="email">Email: <input type="email" name="email" id="email" placeholder="abc@gmail.com"></label>
+                    <label for="phone">Phone Number: <input type="tel" name="phone" id="phone" required></label>
+                    <label for="zip">Zip Code: <input type="number" name="zip" id="zip" required></label>
+                    <label for="date">Storm Date: <input type="date" name="date" id="date"></label>
+                    <label for="storm-type">Storm Type: <input list="storm-type" name="storm-type" id="storm-type"></label>
+                        <datalist id="storm-list">
                             <option value="" disabled selected>Select Storm Type</option>
                             <option value="Flash Flood"></option>
                             <option value="Hail"></option>
@@ -51,7 +52,7 @@
                             <option value="Thunderstorm"></option>
                             <option value="Tornado"></option>
                         </datalist>
-                    <label for="range">Storm Severity <input type="range" id="range" name="range" min="0" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span id="rating-display"></span></label>
+                    <label for="range">Storm Severity <input type="range" name="range" id="range" min="0" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span id="rating-display"></span></label>
                     <label for="region">Storm Region <select name="region" id="region">
                         <option value="" disabled selected>Select Region</option>
                         <option value="Preston">Preston</option>

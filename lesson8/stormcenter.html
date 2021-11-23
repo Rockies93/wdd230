@@ -42,8 +42,8 @@
                     <label for="email">Email: <input type="email" name="email" id="email" placeholder="abc@gmail.com"></label>
                     <label for="phone">Phone Number: <input type="tel" name="phone" id="phone" required></label>
                     <label for="zip">Zip Code: <input type="number" name="zip" id="zip" required></label>
-                    <label for="date">Storm Date: <input type="date" name="date" id="date"></label>
-                    <label for="storm-type">Storm Type: <input list="storm-type" name="storm-type" id="storm-type"></label>
+                    <label for="storm-date">Storm Date: <input type="date" name="storm-date" id="storm-date"></label>
+                    <label for="storm-type">Storm Type: <input list="storm-list" name="storm-type" id="storm-type"></label>
                         <datalist id="storm-list">
                             <option value="" disabled selected>Select Storm Type</option>
                             <option value="Flash Flood"></option>
@@ -59,12 +59,11 @@
                         <option value="Soda Springs">Soda Springs</option>
                         <option value="Fish Haven">Fish Haven</option>
                     </select></label>
-                    <label for="radio-yes"> Are You In Danger? <br>
+                    <label for="radio-yes"> Are You In Danger? <br> </label>
                         <input type="radio" name="radio-yes" id="radio-yes" class="sbs"><label for="radio-yes" class="sbs">Yes</label><br>
                         <input type="radio" name="radio-no" id="radio-no" class="sbs"> <label for="radio-no" class="sbs">No</label><br>
                         <input type="radio" name="radio-maybe" id="radio-maybe" class="sbs"> <label for="radio-maybe" class="sbs">Maybe</label><br>
-                    </label>
-                    <label for="">Additional Comments: <textarea name="comments" id="comments" cols="30" rows="10"></textarea></label>
+                    <label for="comments">Additional Comments: <textarea name="comments" id="comments" cols="30" rows="10"></textarea></label>
                     <input type="submit" value="Report Storm" class="subbut">
             </form>
         </main>

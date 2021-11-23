@@ -228,6 +228,7 @@ label {
     font-family: 'Roboto', sans-serif;
     color: #313638;
     font-size: 1.5rem;
+    padding: 1rem;
 }
 input, textarea {
     display: block;
@@ -236,6 +237,7 @@ input, textarea {
     margin: 0;
     width: 95%;
 }
+
 input:required {
     border: 2px solid red;
 }
@@ -249,8 +251,8 @@ form {
 .sbs {
     display: inline;
     margin: 1em;
-    height: 25px;
-    width: 25px;
+    height: 35px;
+    width: 35px;
 }
 .sbs label {
     display: inline;

@@ -1,0 +1,298 @@
+body {
+    background-color: #E3ECF2;
+    margin: 0;
+    padding: 0;
+}
+
+/*Breakfast Bar*/
+.breakfast {
+    padding: 1rem;
+    background-color: #F4E04D;
+    font-family: 'IBM Plex Serif', serif;
+    text-align: center;
+    box-shadow: 1px 1px 10px #313638;
+}
+.breakfast-gone {
+    display: none;
+}
+
+/*Header*/
+header {
+    background-color: #313638;
+    display: flex; 
+    align-items: center; 
+}
+.header-text {
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    margin: 0;
+    padding: 1rem;
+    height: 50px;
+}
+h1 {
+    font-family:  'Open Sans Condensed', sans-serif;
+    font-size:  1.25rem;
+    color: white;
+    margin: 0;
+}
+.moto {
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    color: #140D6F;
+    font-size: 1.25rem;
+    text-shadow: 0px 0px 1px #313638;
+    display: none;
+}
+
+/*Navigation*/
+nav {
+    background-color: #313638;
+    padding: 1px;
+    box-shadow: 1px 1px 5px #313638;
+    margin-left: auto;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav li {
+    margin: 1rem;
+    padding: 0;
+}
+.navigation li:first-child {
+    display: block;
+}
+.navigation li {
+    display: none;
+}
+nav a {
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #ffffff;
+}
+nav a:hover {
+    color: #F4E04D;
+}
+.responsive li{
+    display: block;
+}
+.active a{
+    font-style: italic;
+    color: #F4E04D;
+}
+
+/*Hero Banner*/
+.hero picture {
+    width: 100%;
+}
+.weather-summary {
+    background-color: rgba(255,255,255,.4);
+    padding: 1rem;
+    border-radius: 3px;
+    box-shadow: 3px 3px 5px #313638;
+    font-family: 'Merriweather', serif;
+    position: absolute;
+    top: 19%;
+    left: 7%;
+}
+.weather-summary h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #313638;
+    font-size: 2rem;
+    margin: 0;
+    letter-spacing: 1px;
+}
+.weather-summary ul {
+    list-style: none;
+    color: #313638;
+    padding-left: 1.5rem;
+}
+.weather-summary li {
+    margin: .75rem;
+    letter-spacing: 1px;
+}
+
+/*Five Day Forecast*/
+.five-day {
+    background-color: white;
+    width: 95%;
+    margin: auto;
+    box-shadow: 3px 3px 5px #313638;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+.five-day h3 {
+    background-color: #313638;
+    width: 100%;
+    padding: 2rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    text-shadow: 1px 1px 1px #313638;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    box-shadow: 3px 3px 5px #313638;
+    margin: 0;
+}
+.forecast {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    justify-content: center;
+}
+.forecast h4 {
+    font-size: 1.25rem;
+    background-color: white;
+    color: #140D6F;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-shadow: 1px 1px 1px #313638;
+    text-align: center;
+}
+.daily-forecast {
+    margin-bottom: 1rem;
+}
+.daily-forecast:nth-child(1) {
+    grid-column: 1 / span 2 ;
+}
+.daily-forecast:nth-child(2) {
+    grid-column: 3 / span 2 ;
+}
+.daily-forecast:nth-child(3) {
+    grid-column: 5 / span 2 ;
+}
+.daily-forecast:nth-child(4) {
+    grid-column: 1 / span 3 ;
+}
+.daily-forecast:nth-child(5) {
+    grid-column: 4 / span 3 ;
+}
+.daily-forecast img {
+    display: block;
+    margin: auto;
+}
+.daily-forecast span {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    display: block;
+}
+
+/*Article*/
+article {
+    width: 95%;
+    margin: auto;
+    background-color: white;
+    box-shadow: 3px 3px 5px #313638;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+article img {
+    width: 100%;
+}
+article h3 {
+    color: #140D6F;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-shadow: 1px 1px 1px #313638;
+    text-align: center;
+    font-size: 1.75rem;
+    letter-spacing: 1px;
+}
+article p {
+    margin: 1rem;
+    font-family: 'Merriweather', serif;
+}
+
+/*Image Gallery*/
+.picture-gallery {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 1rem;
+}
+figure img{
+    box-shadow: 1px 1px 3px #313638;
+    margin-top: 1rem;
+    width: 100%;
+}
+figure figcaption {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #313638;
+}
+.visit-counter {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #313638;
+    margin: 1rem;
+}
+
+/*Home Page Hero*/
+.hero-home {
+    position: absolute;
+    top: 14%;
+    left: 20%;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: white;
+    text-shadow: 1px 1px 1px #313638;
+    font-size: 1rem;
+    letter-spacing: .2rem;
+    line-height: 2.5rem;
+}
+.hero-home img {
+    width: 100%;
+}
+.hero-home button {
+    padding: .5rem;
+    background-color: rgba(49, 54, 56,.4);
+    border: 1px solid rgb(49, 54, 56);
+    box-shadow: 3px 3px 5px #313638;
+    border-radius: 10px;
+}
+.hero-home a {
+    color: #F4E04D;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
+    font-size: 1rem;
+    text-shadow: 1px 1px 1px #313638;
+    letter-spacing: .1rem;
+}
+.hero-home button:hover {
+    background-color: rgb(49, 54, 56) ;
+}
+
+/*Footer*/
+footer {
+    background-color: #313638;
+    color: #ffffff;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    padding: 1rem;
+    font-size: .75rem;
+    
+}
+.contact-info img, .social-media img {
+    height: 35px;
+    display: block;
+    margin: 1rem;
+}
+.contact-info span{
+     font-family: 'Merriweather', serif;
+}
+.social-media img {
+    display: none;
+}
+.map {
+    width: 100%;
+}
+footer a {
+    color: white;
+}
+footer a:visited {
+    color: white;
+}

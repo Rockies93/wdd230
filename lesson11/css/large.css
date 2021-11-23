@@ -1,0 +1,75 @@
+@media (min-width: 60em) {
+    
+    /*Header*/
+    .logo {
+        height: 100px;
+    }
+    header {
+        padding-bottom: 3rem;
+    }
+
+    /*Navigation*/
+    nav {
+        top: 16%;
+    }
+
+    /*Hero Banner*/
+    picture img {
+        width: 100%;
+    }
+    .weather-summary {
+        top: 45%;
+        left: 20%;
+        padding: 3rem;
+    }
+    .hero-home {
+        top: 30%;
+        left: 40%;
+        font-size: 1.5rem;
+    }
+
+    /*Article*/
+    article img {
+        width: 20%;
+        float: left;
+    }
+
+    .town-highlight {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1rem;
+    }
+    .town-card {
+        display: block;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    .moto {
+        font-size: 1.75rem;
+    }
+   
+    nav a {
+        padding: 0;
+        margin: 0;
+        font-size: 1.5rem;
+    }
+    
+    .box {
+        font-size: 1.5rem;
+        padding: 2rem;
+    }
+    footer {
+        font-size: 1.5rem;
+    }
+    .map {
+        width: 45%;
+        margin: auto;
+    }
+    .picture-gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    figure img:hover {
+        box-shadow: 3px 3px 7px #313638;
+    }
+}

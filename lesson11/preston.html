@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Rain or Shine - Preston</title> 
+        <meta name="description" content="Weather Page for Preston, Id">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link rel="shortcut icon" href="images/favicon.ico">
+    </head>
+    <body>
+        <div class="breakfast breakfast-gone">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion</div>
+        <header>
+            <img src="images/logo.png" alt="rain or shine logo" class="logo">
+            <div class="header-text">
+                <h1>Rain or Shine Weather</h1>
+                <div class="moto">Serving you, rain or shine</div>
+            </div>
+        
+            <nav>
+                <ul class= "navigation">
+                    <li><a href="#" class="hamburger">Menu</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="preston.html">Preston</a></li>
+                    <li><a href="soda-springs.html">Soda Springs</a></li>
+                    <li><a href="fish-haven.html">Fish Haven</a></li>
+                    <li><a href="stormcenter.html">Storm Center</a></li>
+                    <li><a href="weather-gallery.html">Gallery</a></li>
+                </ul>
+        </nav>
+        </header>
+        <main>
+            <div class="hero">
+                <picture>
+                    <source srcset="images/starryMountain-medium.jpg" media="(min-width: 32.5em) and (max-width: 59.9em)">
+                    <source srcset="images/starryMountain.jpg" media="(min-width: 60em)">
+                    <img src="images/starryMountain-small.jpg" alt="Snowy mountains with star filled sky in the background" class="img-small"> 
+                </picture>
+                <div class="weather-summary">
+                    <h2>Preston, Idaho</h2>
+                    <ul>
+                        <li>Currently: <span id="current-temp"></span></li>
+                        <li>High: <span id="high"></span> </li>
+                        <li>Wind Chill: <span id="windChill"></span></li>
+                        <li>Humidity: <span id="humidity"></span></li>
+                        <li>Wind Speed: <span id="windSpeed"></span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="five-day">
+                <h3>Five Day Forecast</h3>  
+                <div class="forecast">
+                </div>
+            </div>
+            <article>
+                <picture>
+                    <source srcset="images/pickingFlowersM.jpg" media="(min-width: 32.5em) and (max-width: 59.9em)">
+                    <source srcset="images/pickingFlowersL.jpg" media="(min-width: 60em)">
+                    <img src="images/pickingFlowersS.jpg" alt="Woman picking lupine flowers with cloudy background">
+                </picture>
+                <h3>Local Flower Growers Share Craft in New Class</h3>
+                <p>The Preston Flower Growers Association is advertising a new workshop starting this winter. The Preston Flower Growers Association has teamed up with the Idaho state extension to provide a flower centric class every Friday throughout January and February at the Happy Florist Flower Shop on Main Street. Classes include garden planning, perennial care, table flower arrangements, and many more. Ann Martin, president of the Preston Flower Growers Association, said that she “couldn’t be happier about the opportunity to bring the joy of flowers to the citizens of Preston.” She also extended her thanks to the Idaho State Extension for providing teachers and resources. For more information or to sign up visit www.NotARealWebsite.com </p>
+            </article> 
+        </main>
+        <footer>  
+            <div class="contact-info">
+                <img src="images/phone.png" alt="phone icon">
+                <span>(XXX) XXX XXXX</span><br>
+                <img src="images/mail.png" alt="email icon">
+                <span>notarealemail@rainorshine.com</span>
+            </div>
+            <div class="social-media">
+                <img src="images/facebook.png" alt="facebook icon">
+                <img src="images/instagram.png" alt="instagram icon">
+                <img src="images/twitter.png" alt="twitter icon">
+            </div>
+            <img src="images/map.jpg" alt="map of preston id" class="map">
+            <div>&copy;Rain or Shine Weather | Attributions | Raquel Eyler</div>
+            <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+            <div id="date"></div>
+        </footer>
+        <script src="js/responsive-menu.js"></script>
+        <script src="js/preston-banner.js"></script>
+        <script src="js/weatherapi-preston.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+            WebFont.load({
+                google: {
+                    families: [
+                        'IBM Plex Serif', 'Roboto'
+                    ]
+                }
+            });
+        </script>
+    </body>
+</html>        

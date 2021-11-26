@@ -21,22 +21,26 @@ header {
     background-color: #313638;
     display: flex; 
     align-items: center; 
+    position: relative;
+    z-index: 2;
 }
 .header-text {
     margin: 0;
     padding: 0;
+    
 }
 .logo {
     margin: 0;
     padding: 1rem;
     height: 50px;
+    
 }
 h1 {
     font-family:  'Open Sans Condensed', sans-serif;
     font-size:  1.25rem;
     color: white;
     margin: 0;
-}
+}   
 .moto {
     font-family: 'Merriweather', serif;
     font-style: italic;
@@ -114,6 +118,39 @@ nav a:hover {
 .weather-summary li {
     margin: .75rem;
     letter-spacing: 1px;
+}
+.hero-home {
+    position: absolute;
+    top: 14%;
+    left: 20%;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: white;
+    text-shadow: 1px 1px 1px #313638;
+    font-size: 1rem;
+    letter-spacing: .2rem;
+    line-height: 2.5rem;
+}
+.hero-home img {
+    width: 100%;
+}
+.hero-home button {
+    padding: .5rem;
+    background-color: rgba(49, 54, 56,.4);
+    border: 1px solid rgb(49, 54, 56);
+    box-shadow: 3px 3px 5px #313638;
+    border-radius: 10px;
+}
+.hero-home a {
+    color: #F4E04D;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
+    font-size: 1rem;
+    text-shadow: 1px 1px 1px #313638;
+    letter-spacing: .1rem;
+}
+.hero-home button:hover {
+    background-color: rgb(49, 54, 56) ;
 }
 
 /*Five Day Forecast*/
@@ -208,6 +245,30 @@ article p {
     font-family: 'Merriweather', serif;
 }
 
+/*Home Page Town Summaries*/
+.town-card {
+    background-color: white;
+    width: 95%;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+.town-card img {
+    width: 100%;
+}
+.town-card h2, .town-card h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+
+    text-align: center;
+}
+.town-card ul {
+    list-style: none;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    padding: 1rem;
+}
+
 /*Image Gallery*/
 .picture-gallery {
     width: 90%;
@@ -229,41 +290,6 @@ figure figcaption {
     font-family: 'Roboto', sans-serif;
     color: #313638;
     margin: 1rem;
-}
-
-/*Home Page Hero*/
-.hero-home {
-    position: absolute;
-    top: 14%;
-    left: 20%;
-    text-align: center;
-    font-family: 'Merriweather', serif;
-    color: white;
-    text-shadow: 1px 1px 1px #313638;
-    font-size: 1rem;
-    letter-spacing: .2rem;
-    line-height: 2.5rem;
-}
-.hero-home img {
-    width: 100%;
-}
-.hero-home button {
-    padding: .5rem;
-    background-color: rgba(49, 54, 56,.4);
-    border: 1px solid rgb(49, 54, 56);
-    box-shadow: 3px 3px 5px #313638;
-    border-radius: 10px;
-}
-.hero-home a {
-    color: #F4E04D;
-    font-family: 'Open Sans Condensed', sans-serif;
-    text-decoration: none;
-    font-size: 1rem;
-    text-shadow: 1px 1px 1px #313638;
-    letter-spacing: .1rem;
-}
-.hero-home button:hover {
-    background-color: rgb(49, 54, 56) ;
 }
 
 /*Footer*/

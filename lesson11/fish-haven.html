@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Rain or Shine - Fish Haven</title> 
+        <meta name="description" content="Weather Page for Fish Haven, Id">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link rel="shortcut icon" href="images/favicon.ico">
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.png" alt="rain or shine logo" class="logo">
+            <div class="header-text">
+                <h1>Rain or Shine Weather</h1>
+                <div class="moto">Serving you, rain or shine</div>
+            </div>
+        
+            <nav>
+                <ul class= "navigation">
+                    <li><a href="#" class="hamburger">Menu</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="preston.html">Preston</a></li>
+                    <li><a href="soda-springs.html">Soda Springs</a></li>
+                    <li class="active"><a href="fish-haven.html">Fish Haven</a></li>
+                    <li><a href="stormcenter.html">Storm Center</a></li>
+                    <li><a href="weather-gallery.html">Gallery</a></li>
+                </ul>
+        </nav>
+        </header>
+        <main>
+            <div class="hero">
+                <picture>
+                    <source srcset="images/lake-medium.jpg" media="(min-width: 32.5em) and (max-width: 59.9em)">
+                    <source srcset="images/lake-large.jpg" media="(min-width: 60em)">
+                    <img src="images/lake-small.jpg" alt="Mountain Range over lake with pine trees" class="img-small"> 
+                </picture>
+                <div class="weather-summary">
+                    <h2>Fish Haven, Idaho</h2>
+                    <ul>
+                        <li>Currently: <span id="current-temp"></span></li>
+                        <li>High: <span id="high"></span> </li>
+                        <li>Wind Chill: <span id="windChill"></span></li>
+                        <li>Humidity: <span id="humidity"></span></li>
+                        <li>Wind Speed: <span id="windSpeed"></span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="five-day">
+                <h3>Five Day Forecast</h3>  
+                <div class="forecast">
+                </div>
+            </div>
+            <article>
+                <picture>
+                    <source srcset="images/santa-medium.jpg" media="(min-width: 32.5em)">
+                    <img src="images/santa-small.jpg" alt="Woman picking lupine flowers with cloudy background">
+                </picture>
+                <h3>Annual Christmas Parade on for 2021</h3>
+                <p>The Fish Haven annual Christmas parade is back on after a brief hiatus during the year 2020. Expect to see the high school marching band and dance crew, the Boy Scouts of America, and a special float featuring the big guy himself, Santa, along with Mrs Clause, Rudolph, and several happy elves. The parade will start on 5th street at 9:00 am and proceed down main and end on Newberry Road. The Fish Haven Christmas Parade is a 78 year long tradition, starting in 1943 and continuing on uninterrupted until the Covid-19 pandemic forced a small hiatus in its operation. Mayor Gustov Jonas expressed his delight about the return of the parade saying “The Christmas parade is an important part of our city’s Christmas Celebrations. We are thrilled to have it back, and we express gratitude to the many hard working people who made this possible.” </p>
+            </article> 
+        </main>
+        <footer>  
+            <div class="contact-info">
+                <img src="images/phone.png" alt="phone icon">
+                <span>(XXX) XXX XXXX</span><br>
+                <img src="images/mail.png" alt="email icon">
+                <span>notarealemail@rainorshine.com</span>
+            </div>
+            <div class="social-media">
+                <img src="images/facebook.png" alt="facebook icon">
+                <img src="images/instagram.png" alt="instagram icon">
+                <img src="images/twitter.png" alt="twitter icon">
+            </div>
+            <img src="images/map.jpg" alt="map of preston id" class="map">
+            <div>&copy;Rain or Shine Weather | Attributions | Raquel Eyler</div>
+            <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+            <div id="date"></div>
+        </footer>
+        <script src="js/responsive-menu.js"></script>
+        <script src="js/weatherapi-fishhaven.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+            WebFont.load({
+                google: {
+                    families: [
+                        'IBM Plex Serif', 'Roboto'
+                    ]
+                }
+            });
+        </script>
+    </body>
+</html>        

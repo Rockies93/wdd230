@@ -1,4 +1,4 @@
-@media (min-width: 60em) {
+@media (min-width: 75em) {
     
     /*Header*/
     .logo {
@@ -7,18 +7,30 @@
     header {
         padding-bottom: 3rem;
     }
-
+    h1 {
+        font-size: 4rem;
+    }
+    .moto {
+        font-size: 1.75rem;
+    }
+   
     /*Navigation*/
     nav {
-        top: 16%;
+        top: 75%;
+    }
+    nav a {
+        padding: 0;
+        margin: 0;
+        font-size: 1.5rem;
     }
 
     /*Hero Banner*/
     picture img {
         width: 100%;
+        object-fit: contain;
     }
     .weather-summary {
-        top: 45%;
+        top: 35%;
         left: 20%;
         padding: 3rem;
     }
@@ -27,13 +39,24 @@
         left: 40%;
         font-size: 1.5rem;
     }
+    .hero-home button a {
+        font-size: 1.5rem;
+    }
 
     /*Article*/
+    .article-home {
+        width: 75%;
+        margin: auto;
+    }
+    .article-home img {
+        width: 40%;
+    }
     article img {
         width: 20%;
         float: left;
     }
 
+    /*Town Cards*/
     .town-highlight {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -42,34 +65,43 @@
     .town-card {
         display: block;
     }
-    h1 {
-        font-size: 4rem;
-    }
-    .moto {
-        font-size: 1.75rem;
-    }
-   
-    nav a {
-        padding: 0;
-        margin: 0;
-        font-size: 1.5rem;
-    }
-    
-    .box {
-        font-size: 1.5rem;
-        padding: 2rem;
-    }
-    footer {
-        font-size: 1.5rem;
-    }
-    .map {
-        width: 45%;
-        margin: auto;
-    }
+
+    /*Weather Gallery*/
     .picture-gallery {
         grid-template-columns: 1fr 1fr 1fr;
     }
     figure img:hover {
         box-shadow: 3px 3px 7px #313638;
     }
+    
+    
+    .box {
+        font-size: 1.5rem;
+        padding: 2rem;
+    }
+
+    /*Footer*/
+    .map {
+        width: 100%;
+        margin: auto;
+    }
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-size: 1.5rem;
+    }
+    .contact-box {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding: 0;
+        height: 75%;
+    }
+    .contact-info {
+        margin: 0;
+    }
+    .footer-bar {
+        grid-column: span 2;
+        margin: 1rem;
+    }
+    
 }

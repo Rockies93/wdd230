@@ -15,16 +15,20 @@ fetch(requestURL)
                card.setAttribute('class', 'town-card');
                bigSection.appendChild(card);
 
+               let townText = document.createElement('div');
+               townText.setAttribute('class','town-text');
+               card.appendChild(townText);
+
                let h2 =  document.createElement('h2');
                h2.textContent = towns[i].name;
-               card.appendChild(h2);
+               townText.appendChild(h2);
 
                let h3 = document.createElement('h3');
                h3.textContent = towns[i].motto;
-               card.appendChild(h3);
+               townText.appendChild(h3);
 
                let list = document.createElement('ul');
-               card.appendChild(list);
+               townText.appendChild(list);
 
                let year = document.createElement('li');
                year.textContent = `Founded in ${towns[i].yearFounded}`;

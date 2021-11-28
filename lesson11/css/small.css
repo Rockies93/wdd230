@@ -89,8 +89,9 @@ nav a:hover {
 }
 
 /*Hero Banner*/
-.hero picture {
+.hero img {
     width: 100%;
+    object-fit: contain;
 }
 .weather-summary {
     background-color: rgba(255,255,255,.4);
@@ -218,6 +219,30 @@ nav a:hover {
     display: block;
 }
 
+/*Events*/
+.events {
+    width: 95%;
+    margin: auto;
+    background-color: white;
+    box-shadow: 3px 3px 5px #313638;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.events h3 {
+    color: #140D6F;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-shadow: 1px 1px 1px #313638;
+    text-align: center;
+    font-size: 1.75rem;
+    letter-spacing: 1px;
+}
+.events ul {
+    font-family: 'Merriweather', serif;
+    width: 85%;
+}
+
 /*Article*/
 article {
     width: 95%;
@@ -253,13 +278,16 @@ article p {
     border-radius: 10px;
     overflow: hidden;
     margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 3px 3px 5px #313638;
 }
 .town-card img {
     width: 100%;
+    margin-bottom: -10px;
 }
 .town-card h2, .town-card h3 {
     font-family: 'Open Sans Condensed', sans-serif;
-
+    color: #313638;
     text-align: center;
 }
 .town-card ul {
@@ -267,6 +295,7 @@ article p {
     text-align: center;
     font-family: 'Merriweather', serif;
     padding: 1rem;
+    color: #313638;
 }
 
 /*Image Gallery*/
@@ -282,14 +311,69 @@ figure img{
 }
 figure figcaption {
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Merriweather', serif;
     color: #313638;
 }
 .visit-counter {
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Merriweather', serif;
     color: #313638;
     margin: 1rem;
+}
+
+/*Storm Center*/
+.page-heading {
+    color: #140D6F;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-shadow: 1px 1px 1px #313638;
+    text-align: center;
+    font-size: 1.75rem;
+    letter-spacing: 1px;
+}
+label {
+    display: block;
+    margin: 2em;
+    font-family: 'Merriweather', serif;
+    color: #313638;
+    font-size: 1.5rem;
+}
+input, textarea {
+    display: block;
+    border-radius: 4px;
+    height: 50px;
+    margin: 0;
+    width: 95%;
+}
+input:required {
+    border: 2px solid red;
+}
+#rating-display {
+    display: inline;
+}
+
+form {
+    margin: 5%;
+}
+.sbs {
+    display: inline;
+    margin: 1em;
+    height: 25px;
+    width: 25px;
+}
+.sbs label {
+    display: inline;
+}
+.subbut {
+    background-color: #140D6F;
+    box-shadow: 3px 3px 5px #313638;
+    margin: 1em;
+    font-family: 'Merriweather', sans-serif;
+    color: #F4E04D;
+    font-size: 1.5rem;
+    border: 2px solid #140D6F;
+}
+.subbut:hover{
+    box-shadow: 5px 5px 10px #313638;
 }
 
 /*Footer*/
@@ -300,11 +384,14 @@ footer {
     text-align: center;
     padding: 1rem;
     font-size: .75rem;
-    
+}
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .contact-info img, .social-media img {
     height: 35px;
-    display: block;
     margin: 1rem;
 }
 .contact-info span{

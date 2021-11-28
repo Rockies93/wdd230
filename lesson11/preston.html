@@ -22,7 +22,6 @@
                 <h1>Rain or Shine Weather</h1>
                 <div class="moto">Serving you, rain or shine</div>
             </div>
-        
             <nav>
                 <ul class= "navigation">
                     <li><a href="#" class="hamburger">Menu</a></li>
@@ -38,8 +37,8 @@
         <main>
             <div class="hero">
                 <picture>
-                    <source srcset="images/starryMountain-medium.jpg" media="(min-width: 32.5em) and (max-width: 59.9em)">
-                    <source srcset="images/starryMountain.jpg" media="(min-width: 60em)">
+                    <source srcset="images/starryMountain-medium.jpg" media="(min-width: 32.5em) and (max-width: 50em)">
+                    <source srcset="images/starryMountain.jpg" media="(min-width: 50.1em)">
                     <img src="images/starryMountain-small.jpg" alt="Snowy mountains with star filled sky in the background" class="img-small"> 
                 </picture>
                 <div class="weather-summary">
@@ -58,6 +57,10 @@
                 <div class="forecast">
                 </div>
             </div>
+            <div class="events">
+                <h3>Events</h3>
+                <ul class="events-list"></ul>
+            </div>
             <article>
                 <picture>
                     <source srcset="images/pickingFlowersM.jpg" media="(min-width: 32.5em) and (max-width: 59.9em)">
@@ -68,22 +71,28 @@
                 <p>The Preston Flower Growers Association is advertising a new workshop starting this winter. The Preston Flower Growers Association has teamed up with the Idaho state extension to provide a flower centric class every Friday throughout January and February at the Happy Florist Flower Shop on Main Street. Classes include garden planning, perennial care, table flower arrangements, and many more. Ann Martin, president of the Preston Flower Growers Association, said that she “couldn’t be happier about the opportunity to bring the joy of flowers to the citizens of Preston.” She also extended her thanks to the Idaho State Extension for providing teachers and resources. For more information or to sign up visit www.NotARealWebsite.com </p>
             </article> 
         </main>
-        <footer>  
-            <div class="contact-info">
-                <img src="images/phone.png" alt="phone icon">
-                <span>(XXX) XXX XXXX</span><br>
-                <img src="images/mail.png" alt="email icon">
-                <span>notarealemail@rainorshine.com</span>
+        <footer>
+            <div class="contact-box">
+                <div class="contact-info">
+                    <img src="images/phone.png" alt="phone icon">
+                    <span>(XXX) XXX XXXX</span>
+                </div>
+                <div class="contact-info">
+                    <img src="images/mail.png" alt="email icon">
+                    <span>notarealemail@rainorshine.com</span>
+                </div> 
+                <div class="social-media">
+                    <img src="images/facebook.png" alt="facebook icon">
+                    <img src="images/instagram.png" alt="instagram icon">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </div>
             </div>
-            <div class="social-media">
-                <img src="images/facebook.png" alt="facebook icon">
-                <img src="images/instagram.png" alt="instagram icon">
-                <img src="images/twitter.png" alt="twitter icon">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.773853438026!2d-111.91534443111685!3d42.09974162639047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1638075296572!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="map"></iframe>
+            <div class="footer-bar">
+                &copy;Rain or Shine Weather | Attributions | Raquel Eyler
+                <div id="date"></div>
+                <div><a href="https://docs.google.com/presentation/d/1uHAqSQf1nlxPs_NKZep2wzgxqQXE7sIqu6rYG7BgW28/edit?usp=sharing">Wireframes</a></div>
             </div>
-            <img src="images/map.jpg" alt="map of preston id" class="map">
-            <div>&copy;Rain or Shine Weather | Attributions | Raquel Eyler</div>
-            <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-            <div id="date"></div>
         </footer>
         <script src="js/responsive-menu.js"></script>
         <script src="js/preston-banner.js"></script>
@@ -98,4 +107,4 @@
             });
         </script>
     </body>
-</html>        
+</html>       

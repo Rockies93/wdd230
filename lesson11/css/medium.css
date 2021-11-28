@@ -23,7 +23,7 @@
         width: 90%;
         margin: auto;
         position: absolute;
-        top: 11%;
+        top: 70%;
         right: 5%;
     }
     .navigation {
@@ -46,6 +46,11 @@
         top: 22%;
         left: 35%;
     }
+    .hero img {
+        width: 100;
+        object-fit: contain;
+    }
+
     
     /*Five Day Forecast*/
     .forecast {
@@ -67,10 +72,22 @@
     .daily-forecast:nth-child(5) {
         grid-column: 5 / span 1 ;
     }
+    .five-day {
+        display: block;
+    }
 
+    /*Events*/
+    .events {
+        width: 75%;
+    }
+    .events ul {
+        margin-left: 100px;
+        margin-bottom: 2rem;
+    }
+    
     /*Article*/
     article img {
-        width: 40%;
+        width: 45%;
         float: left;
         margin-right: 1rem;
     }
@@ -81,39 +98,61 @@
         position: static;
     }
     
+    /*Home Page Town Cards*/
     .town-card {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 3fr;
         overflow: hidden;
         margin-bottom: 1rem;
     }
-    .town-card img {
-        grid-column: 1 / 2;
-        grid-row: 1 / 4;
-        height: 100%;
-    }
     .town-card:nth-child(even) img {
+        grid-column: 1 / 2;
+        grid-row: 1;
+    }
+    .town-card:nth-child(even) div {
         grid-column: 2 / 3;
-        grid-row: 1 / 4;
-        height: 100%;
-    }
-    .five-day {
-        display: block;
-    }
-    .social-media img {
-        display: inline-block;
+        grid-row: 1;
     }
 
-    footer {
-        font-size: 1rem;
+    /*Storm Center*/
+    input {
+        max-width: 800px;
     }
+
+    .page-heading {
+        margin-top: 75px;
+        font-size: 2rem;
+    }
+
+    /*Weather Gallery*/
     .picture-gallery {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 1rem;
     }
-    input {
-        max-width: 800px;
+    
+    /*Footer*/
+    footer {
+        font-size: 1rem;
     }
+    .contact-box {
+        display: flex;
+        flex-direction: row;
+        flex: 1 1 auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact-info {
+        margin: 30px;
+    }
+    .social-media img {
+        display: inline-block;
+    }
+    .map {
+        width: 75%;
+        margin: auto;
+    }
+    
+   
+    
 }

@@ -134,6 +134,7 @@ nav a:hover {
 }
 .hero-home img {
     width: 100%;
+    object-fit: contain;
 }
 .hero-home button {
     padding: .5rem;
